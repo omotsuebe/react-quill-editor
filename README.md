@@ -3,7 +3,9 @@
 ## Introduction
 
 This project provides a modern Quill editor implementation for React using TypeScript. This is a fresh implementation of Quill for React using TypeScript, inspired by the official Quill playground (https://quilljs.com/playground/react), offering better compatibility and flexibility.
-![Editor](https://appwiz.dev/assets/images/editor.png)
+
+
+![Quill Editor](https://appwiz.dev/assets/images/editor.png)
 
 ## Features
 
