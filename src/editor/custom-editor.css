@@ -1,0 +1,38 @@
+.editor-wrapper {
+    margin: 2rem 0;
+}
+
+.custom-editor-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: white;
+}
+
+/* Quill specific styles */
+.ql-toolbar.ql-snow {
+    border: none !important;
+    border-bottom: 1px solid #ccc !important;
+    border-radius: 4px 4px 0 0;
+}
+
+.ql-container.ql-snow {
+    border: none !important;
+    min-height: 300px;
+}
+
+.quill-editor {
+    min-height: 300px;
+}
+
+.preview-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background: white;
+}
+
+.preview-section h2 {
+    margin-top: 0;
+    color: #333;
+}
