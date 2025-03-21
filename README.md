@@ -132,18 +132,33 @@ export default CustomEditor;
 Add the following styles in `editor/custom-editor.css`:
 
 ```css
-.custom-editor-container {
-    border: 1px solid #ccc;
+/* Quill specific styles */
+.ql-toolbar.ql-snow {
+    border: none !important;
+    border-bottom: 1px solid #ccc !important;
+    border-radius: 4px 4px 0 0;
+}
+
+.ql-container.ql-snow {
+    border: none !important;
+    min-height: 300px;
+}
+
+.quill-editor {
+    min-height: 300px;
+}
+
+.preview-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #eee;
     border-radius: 4px;
     background: white;
 }
 
-.ql-toolbar.ql-snow {
-    border-bottom: 1px solid #ccc;
-}
-
-.ql-container.ql-snow {
-    min-height: 300px;
+.preview-section h2 {
+    margin-top: 0;
+    color: #333;
 }
 ```
 
