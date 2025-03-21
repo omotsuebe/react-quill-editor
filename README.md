@@ -6,7 +6,7 @@ This project provides a modern Quill editor implementation for React using TypeS
 
 ## Features
 
--   Fully compatible with **React 19+**
+-   Fully compatible with **React 18/19+**
     
 -   Built using **TypeScript** for strong typing
     
